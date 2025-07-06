@@ -19,3 +19,7 @@ module "security_group" {
 module "vpc" {
   source = "./modules/vpc"
 }
+
+module "s3_bucket" {
+  source = "./modules/s3_bucket"
+}
